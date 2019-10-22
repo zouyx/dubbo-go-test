@@ -10,6 +10,14 @@ application:
   owner : "ZX"
   environment : "dev"
 
+application_config:
+  organization: "demo"
+  name: "demo"
+  module: "demo"
+  version: "0.0.1"
+  owner: "demo"
+  environment: "dev"
+
 registries :
   "hangzhouzk":
     # 对应java配置中address属性的zookeeper <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
