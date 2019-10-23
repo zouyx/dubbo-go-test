@@ -10,6 +10,15 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+
+	_ "github.com/apache/dubbo-go/common/proxy/proxy_factory"
+	_ "github.com/apache/dubbo-go/filter/impl"
+	_ "github.com/apache/dubbo-go/protocol/dubbo"
+	_ "github.com/apache/dubbo-go/registry/protocol"
+
+	_ "github.com/apache/dubbo-go/cluster/cluster_impl"
+	_ "github.com/apache/dubbo-go/cluster/loadbalance"
+	_ "github.com/apache/dubbo-go/registry/zookeeper"
 )
 
 var (

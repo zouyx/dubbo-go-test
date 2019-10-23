@@ -88,11 +88,11 @@ func (u *UserProvider) GetUsers(req []interface{}) ([]interface{}, error) {
 	return []interface{}{user, user1}, err
 }
 
-func (s *UserProvider) MethodMapper() map[string]string {
-	return map[string]string{
-		"GetUser2": "getUser",
-	}
-}
+//func (s *UserProvider) MethodMapper() map[string]string {
+//	return map[string]string{
+//		"GetUser2": "getUser",
+//	}
+//}
 
 func (u *UserProvider) Reference() string {
 	return "UserProvider"
